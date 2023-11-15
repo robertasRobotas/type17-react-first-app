@@ -1,0 +1,15 @@
+.article {
+  width: 400px;
+  background-color: aliceblue;
+  padding: 1rem;
+  border-radius: 8px;
+  height: 320px;
+}
+
+.article img {
+  width: 100%;
+}
+
+.article h2 {
+  margin-top: 1rem;
+}
