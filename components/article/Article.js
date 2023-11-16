@@ -1,14 +1,11 @@
 import styles from "./styles.module.css";
-import carImg from "../../assets/doloream.webp";
 
-const Article = () => {
-  console.log(carImg);
-
+const Article = ({ title, subtitle, imgUrl }) => {
   return (
     <div className={styles.article}>
-      <img src={carImg.src} />
-      <h6>Lietuvoje 2023.11.15 05:30</h6>
-      <h2>Legendiniame breiko turnyre Los Andžele – Banevič triumfas</h2>
+      <img src={imgUrl} />
+      <h6>{subtitle}</h6>
+      <h2>{title}</h2>
     </div>
   );
 };

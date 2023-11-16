@@ -1,9 +1,9 @@
 import styles from "./styles.module.css";
 
-const Header = () => {
+const Header = ({ logo }) => {
   return (
     <header className={styles.header}>
-      <div className={styles.logo}>Type17</div>
+      <div className={styles.logo}>{logo}</div>
       <nav className={styles.nav}>
         <ul>
           <li>
